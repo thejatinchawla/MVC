@@ -16,10 +16,6 @@ hbs.registerPartials(partialsPath)
 
 app.use(router)
 
-// app.use('/user',(userRoute))
-// app.get("/",(req,res)=>{
-//     res.render("login")
-// })
 app.listen(3000,()=>{
     console.log(`server is listening at port ${'http://localhost:3000'}`);
 })
