@@ -8,12 +8,14 @@
     "start": "nodemon app"
   },
   "keywords": [],
-  "author": "",
+  "author": "Jatin Chawla",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
+    "express-session": "^1.17.3",
     "hbs": "^4.2.0",
     "jsonwebtoken": "^9.0.0",
+    "mongo": "^0.1.0",
     "mongoose": "^7.0.2",
     "nodemon": "^2.0.21",
     "path": "^0.12.7",

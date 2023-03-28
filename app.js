@@ -3,10 +3,17 @@ const app = express()
 const router = require('./routes/router')
 const path = require("path")
 const hbs = require('hbs')
+const session = require('express-session')
+
 require('./models/db/conn')
 app.use(express.urlencoded({extended:false}))
 app.use(express.json())
-
+app.use(session({
+    secret: 'keyboard cat',
+    resave: false,
+    saveUninitialized: true,
+    cookie: { maxAge: 30000 }
+  }))
 
 const viewPath = path.join(__dirname,"./views")
 app.set("view engine", "hbs")
