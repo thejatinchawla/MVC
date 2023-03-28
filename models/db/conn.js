@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-mongoose.connect('******mongodb_url********')
+mongoose.connect('******mongo_url********')
 .then(()=>{
     console.log(`DB connection is successful`)
 })
