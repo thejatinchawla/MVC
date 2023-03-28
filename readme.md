@@ -4,8 +4,6 @@
 1. clone the repository using below command
 ```
 git clone https://github.com/thejatinchawla/MVC-google-Oauth.git
-
-
 ```
 2.Edit the mongodb url in models/db/conn.js
 ```
