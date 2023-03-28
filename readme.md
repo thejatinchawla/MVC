@@ -5,8 +5,9 @@
 ```
 git clone https://github.com/thejatinchawla/MVC-google-Oauth.git
 
-2.Edit the mongodb url in models/db/conn.js
+
 ```
+2.Edit the mongodb url in models/db/conn.js
 ```
 MONGO_URL=your local mongo url
 
